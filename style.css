@@ -1,0 +1,160 @@
+* {
+    font-family: 'Raleway', sans-serif;
+}
+section {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+ul {
+    list-style-type: none;
+}
+header.main-header {
+    display: flex;
+    justify-content: space-between;
+}
+.nav ul {
+    display: flex;
+}
+.nav ul > li {
+    color: rgb(0, 101, 252);
+    padding: 10px;
+}
+.main-logo {
+    height: 50px;
+}
+.search-text {
+    background-color: rgb(0, 101, 252);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.filters-container {
+    display: flex;
+}
+.filters-container > div {
+    margin: 15px;
+}
+.filters-container .filter {
+    padding: 10px;
+    border: 2px solid #f2f2f2;
+    border-radius: 10px;
+}
+#container-hosting-popular {
+    display: flex;
+}
+#container-hosting-popular h2{
+    margin-left: 15px;
+}
+.container-hosting {
+    width: 70%; 
+    background-color: #f2f2f2;
+    border-radius: 15px;
+}
+.container-card-hosting {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+.container-card-hosting h3 {
+    margin: 5px;
+    padding: 0;
+}
+.container-card-hosting p {
+    margin: 0 0 5px 5px;
+}
+.card-hosting {
+    width: 25%;
+    height: fit-content;
+    border-radius: 10px;
+    background-color: white;
+    padding: 5px;
+    margin: 15px; 
+}
+.card-hosting > img {
+    width: 100%;
+  
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.container-popular {
+    width: 30%;
+    background-color: #f2f2f2;
+    border-radius: 10px;
+    margin-left: 15px;
+}
+.container-card-popular {
+    display: flex;
+    flex-direction: column;
+}
+.card-popular {
+    width: 90%;
+    padding: 5px;
+    margin: 15px;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+}
+.card-popular > img {
+    width: 40%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.container-activites {
+    display: flex;
+    justify-content: space-evenly;
+    margin: 15px;
+}
+.container-card-one-activites {
+    width: 22%;
+}
+.card-one-activites {
+    height: 60vh;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.card-one-activites img, .card-two-activites > img {
+    height: 86%; 
+    width: 100%;
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    object-fit: cover;
+}
+.card-one-activites > div, .card-two-activites {
+    height: 40px;
+}
+.container-activites h3 {
+    margin: 0;
+}
+.container-card-two-activites {
+    width: 22%;
+    height: 60vh;
+}
+.container-card-two-activites .card-two-activites {
+    height: 45%;
+    border-radius: 10px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+.container-card-two-activites .card-two-activites:nth-child(2) {
+    margin-top: 40px;
+}
+
+#main-footer {
+    background-color: #f2f2f2;
+    display: flex;
+}
+#main-footer .footer-infos {
+    width: 30%;
+    margin: 25px;
+}
+.big-img {
+    height: 90% !important;
+}
+.big-img > p {
+    height: 100%;
+   
+    background-image: url("./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+    
+}
